@@ -49,7 +49,7 @@ export const PROJECTS: Project[] = [
     id: 1,
     title: 'Nuraga: Virtual Assistant',
     techStack: ['IBM Watsonx.ai','Watson Assistant'],
-    imageUrl: '/public/images/nuraga-mockup.png',
+    imageUrl: '/images/nuraga-mockup.png',
     screenshots: [
       "/images/nuraga5.png",
       "/images/nuraga6.png",
