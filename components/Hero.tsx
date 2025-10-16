@@ -85,9 +85,9 @@ const Hero: React.FC = () => {
           Vinandra Adam Saputra
         </h1>
         <p className="text-lg md:text-2xl text-gray-700 mb-10 max-w-xl mx-auto md:mx-0">
-          Informatics Engineering Graduate with a passion for{" "}
-          <span className="text-blue-600 font-semibold">AI</span> and{" "}
-          <span className="text-blue-600 font-semibold">Web Development</span>.
+          Informatics Engineering Graduate dedicated to solving{" "}
+          <span className="text-blue-600 font-semibold">Operational Problems</span> through{" "}
+          <span className="text-blue-600 font-semibold">Technology</span>.
         </p>
 
         <div className="flex justify-center md:justify-start space-x-4">
