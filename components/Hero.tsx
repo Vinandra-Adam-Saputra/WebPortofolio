@@ -68,7 +68,7 @@ const Hero: React.FC = () => {
             transition={{ delay: 0.5 }}
             className="absolute bottom-[-20px] left-1/2 -translate-x-1/2 bg-gradient-to-r from-blue-500 to-indigo-500 text-white text-xs md:text-sm font-semibold px-4 py-1 rounded-full shadow-lg backdrop-blur-sm"
           >
-            #AI Developer
+            #IT Enthusiast
           </motion.span>
         </div>
       </motion.div>
