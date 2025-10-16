@@ -69,7 +69,7 @@ const Experience: React.FC = () => {
                 }`}
               >
                 <img
-                  src={item.image || "/public/images/placeholder-exp.png"}
+                  src={item.image || "/images/placeholder-exp.png"}
                   alt={item.title}
                   className="rounded-2xl shadow-lg w-full h-48 sm:h-56 object-cover"
                 />
