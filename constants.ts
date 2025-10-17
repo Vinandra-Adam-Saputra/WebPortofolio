@@ -48,7 +48,7 @@ export const PROJECTS: Project[] = [
   {
     id: 1,
     title: 'Nuraga: Virtual Assistant',
-    techStack: ['IBM Watsonx.ai','Watson Assistant'],
+    techStack: ['IBM Watsonx.ai','Watson Assistant', 'Virtual Assistant'],
     imageUrl: '/images/nuraga-mockup.png',
     screenshots: [
       "/images/nuraga5.png",
@@ -56,13 +56,13 @@ export const PROJECTS: Project[] = [
       "/images/nuraga7.png",
     ],
     description: 'A generative AI virtual assistant developed using IBM Watsonx.ai.',
-    longDescription: 'This project was part of the IBM AI & Cybersecurity program. Nuraga is a sophisticated virtual assistant designed to understand natural language and perform various tasks. The development process involved training models, designing conversational flows, and integrating with external APIs. This placeholder can be updated with more details about the architecture and challenges.',
+    longDescription: 'This project was part of the IBM AI & Cybersecurity program. Nuraga is a generative AI virtual assistant developed using IBM Watsonx.ai (LLaMA-2-70B-Chat) and Watson Assistant to promote self-growth and mental well-being among Indonesian youth. It leverages advanced natural language understanding to deliver empathetic and context-aware responses, offering advice on mental health, personal development, and balanced living.Through prompt engineering and supervised fine-tuning, Nuraga ensures consistent and relevant interactions. Integrated into a web-based chat interface, it serves as an intelligent and supportive companion blending human empathy with AI precision.',
     sourceCodeUrl: 'https://github.com/Vinandra-Adam-Saputra/Nuraga.git',
   },
   {
     id: 2,
-    title: 'SIMANTAP',
-    techStack: ['PHP', 'CodeIgniter', 'MySQL'],
+    title: 'SIMANTAP (Sistem Informasi Manajemen Data Terpadu)',
+    techStack: ['PHP', 'HTML', 'CSS', 'JavaScript', 'MySQL'],
     imageUrl: '/images/mockup-simantap.png',
     screenshots: [
       "/images/landing-page.jpg",
@@ -72,13 +72,13 @@ export const PROJECTS: Project[] = [
       "/images/tambahnotdinas.jpg",
     ],
     description: 'A full-stack web application for digitizing office archival processes.',
-    longDescription: 'SIMANTAP (Sistem Manajemen Arsip Terpadu) was developed during the internship at Kantor Camat Bintan Timur. It is a web-based system built with PHP and CodeIgniter to replace the manual archival process, improving efficiency and data accessibility.',
+    longDescription: 'SIMANTAP is a web-based information system designed to manage and centralize official documents for the Bintan Timur Subdistrict Office. The system provides division-specific dashboards and supports CRUD operations, document uploads, and digital previews to improve workflow efficiency and record management. Built with PHP, MySQL, and standard web technologies, SIMANTAP enables staff from each division including Pemberdayaan Masyarakat dan Desa (PMD) and General Affairs & Personnel to access only their respective archives securely through a role-based authentication system.The project was developed during a professional internship to assist government offices in transitioning from manual to digital data management, improving both transparency and accessibility.',
     sourceCodeUrl: 'https://github.com/Vinandra-Adam-Saputra/SIMANTAP.git',
   },
   {
     id: 3,
     title: 'Squid Freshness Identification',
-    techStack: ['CapsNet', 'Python', 'TensorFlow'],
+    techStack: ['CapsNet', 'Python', 'Deep Learning'],
     imageUrl: '/images/skripsi-mockup.png',
     screenshots: [
       "/images/skripsi1.png",
@@ -86,26 +86,26 @@ export const PROJECTS: Project[] = [
       "/images/skripsi3.png"
     ],
     description: 'A deep learning model to identify the freshness of squid from images.',
-    longDescription: 'This academic project explores the use of Capsule Networks (CapsNet) for image classification. The model was trained on a dataset of squid images to classify them into different freshness levels. This project demonstrates skills in deep learning, computer vision, and Python. More details on model accuracy and methodology can be added here.',
+    longDescription: 'This project focuses on developing an automated system to identify the freshness level of squids through deep learning image classification. The research involved dataset collection, preprocessing, and model training using Capsule Networks (CapsNet). The system provides a scalable and non-destructive approach for seafood freshness assessment, assisting industries in maintaining quality standards.',
     sourceCodeUrl: 'https://github.com/Vinandra-Adam-Saputra/CapsuleNetwork-Binary-Classification.git',
   },
   {
     id: 4,
-    title: 'PalVoice',
-    techStack: ['Flutter', 'Firebase', 'Dart'],
+    title: 'PalVoice: Palestine Voice',
+    techStack: ['Flutter', 'Firebase', 'Dart', 'Cloud Firestore', 'News API'],
     imageUrl: '/images/iphone-multiple-screens-mockup.png',
     screenshots: [
       "/images/palvoice-mockup.png",
       "/images/palvoice2.png",
     ],
-    description: 'A mobile application for anonymous voice-based social interaction.',
-    longDescription: 'PalVoice is a Flutter-based mobile app that allows users to connect and chat with others anonymously using only their voice. It utilizes Firebase for real-time database and authentication. This placeholder can be filled with information about the app\'s features, design choices, and development journey.',
+    description: 'A mobile application that amplifies awareness and solidarity for the Palestinian.',
+    longDescription: 'PalVoice is a mobile application built with Flutter that empowers users to stay informed and take meaningful action in support of Palestine. It integrates multiple features, including real-time news updates using the News API, donation links to trusted humanitarian organizations, and curated petitions to raise global awareness. The app also includes a boycott product database stored in Firebase Cloud Firestore, complete with search and category filters. With its intuitive interface and seamless integration of Firebase services, PalVoice serves as both an information hub and a platform for activism and solidarity.',
     sourceCodeUrl: 'https://github.com/Vinandra-Adam-Saputra/PalVoice.git',
   },
   {
     id: 5,
     title: 'Real Estate Price Prediction',
-    techStack: ['Machine Learning', 'Python', 'Scikit-learn'],
+    techStack: ['Machine Learning', 'Python', 'Streamlit'],
     imageUrl: '/images/predict-mockup.png',
     screenshots: [
       "/images/predict1.png",
@@ -114,7 +114,7 @@ export const PROJECTS: Project[] = [
       "/images/predict4.png",
     ],
     description: 'A machine learning model to predict real estate prices based on features.',
-    longDescription: 'This project involves building and evaluating a regression model to predict housing prices. The process included data cleaning, feature engineering, model selection (e.g., Linear Regression, Gradient Boosting), and performance evaluation. This section can be updated with details about the dataset, model performance metrics, and insights gained.',
+    longDescription: 'The Real Estate Prediction web app is designed to estimate property prices through advanced machine learning techniques. Built with Streamlit, it integrates two core models — Multiple Linear Regression and Backpropagation Neural Network — to provide accurate predictions based on property features such as land area, building size, and number of rooms. The app also allows users to test model accuracy with custom datasets and visualize performance comparisons between models. With its clean and responsive interface, it delivers an intuitive experience for both technical and non-technical users.',
     sourceCodeUrl: 'https://github.com/Vinandra-Adam-Saputra/RealEstatePrediction-Streamlit.git',
   },
 ];
