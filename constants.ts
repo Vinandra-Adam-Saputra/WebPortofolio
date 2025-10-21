@@ -117,6 +117,24 @@ export const PROJECTS: Project[] = [
     longDescription: 'The Real Estate Prediction web app is designed to estimate property prices through advanced machine learning techniques. Built with Streamlit, it integrates two core models — Multiple Linear Regression and Backpropagation Neural Network — to provide accurate predictions based on property features such as land area, building size, and number of rooms. The app also allows users to test model accuracy with custom datasets and visualize performance comparisons between models. With its clean and responsive interface, it delivers an intuitive experience for both technical and non-technical users.',
     sourceCodeUrl: 'https://github.com/Vinandra-Adam-Saputra/RealEstatePrediction-Streamlit.git',
   },
+  {
+    id: 6,
+    title: 'NST PHONESHOP E-Catalog',
+    techStack: ['React', 'Tailwind CSS', 'Vite', 'Supabase', 'TypeScript'],
+    imageUrl: '/images/nst-mockup.png',
+    screenshots: [
+      "/images/nst1.png",
+      "/images/nst2.png",
+      "/images/nst3.png",
+      "/images/nst4.png",
+      "/images/nst5.png",
+      "/images/nst6.png",
+      "/images/nst7.png",
+    ],
+    description: 'A web-based digital e-catalog for NST Phoneshop to display products in a modern and accessible way.',
+    longDescription: 'This project is an electronic catalog created for NST Phoneshop. Its purpose is to digitize how customers view available products, complete with images, specifications, and other details. This application serves as a digital storefront that simplifies product searching and browsing.',
+    sourceCodeUrl: 'https://github.com/Vinandra-Adam-Saputra/NST-Catalog.git',
+  },
 ];
 
 export const SKILL_CATEGORIES: SkillCategory[] = [
