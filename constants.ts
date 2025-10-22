@@ -202,6 +202,6 @@ export const CONTACT_INFO = {
     phone: '085363619829',
     socials: {
         github: 'https://github.com/Vinandra-Adam-Saputra', 
-        linkedin: '#', 
+        linkedin: 'https://www.linkedin.com/in/vinandra-adam-saputra/', 
     }
 };
