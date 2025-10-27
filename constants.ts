@@ -135,6 +135,24 @@ export const PROJECTS: Project[] = [
     longDescription: 'This project is an electronic catalog created for NST Phoneshop. Its purpose is to digitize how customers view available products, complete with images, specifications, and other details. This application serves as a digital storefront that simplifies product searching and browsing.',
     sourceCodeUrl: 'https://github.com/Vinandra-Adam-Saputra/NST-Catalog.git',
   },
+    {
+    id: 7,
+    title: 'QuizGen - Smart Quiz Generator',
+    techStack: ['React', 'Tailwind CSS', 'Vite', 'Supabase', 'TypeScript', 'Gemini API', 'Pollinations.ai'],
+    imageUrl: '/images/quizgen-mockup.png',
+    screenshots: [
+      "/images/quizgen1.png",
+      "/images/quizgen2.png",
+      "/images/quizgen3.png",
+      "/images/quizgen4.png",
+      "/images/quizgen5.png",
+      "/images/quizgen6.png",
+      "/images/quizgen7.png",
+    ],
+    description: 'An AI-powered platform for educators to instantly create custom English topics quizzes.',
+    longDescription: 'QuizGen is a modern web application that revolutionizes quiz creation for educators by leveraging Google Gemini AI. Teachers can generate comprehensive quizzes tailored to specific grade levels and topics in seconds, complete with AI-generated illustrations, reading passages, and bilingual explanations (English/Indonesian). The platform supports multiple question types including multiple-choice, fill-in-the-blank, and essay questions, while providing instant auto-grading and detailed performance analytics for students.',
+    sourceCodeUrl: 'https://github.com/Vinandra-Adam-Saputra/QuizGen---SmartQuizGenerator.git',
+  },
 ];
 
 export const SKILL_CATEGORIES: SkillCategory[] = [
