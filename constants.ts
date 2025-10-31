@@ -12,7 +12,7 @@ export const NAV_LINKS: NavLink[] = [
 
 export const EXPERIENCES: Experience[] = [
     {
-        title: 'Internship',
+        title: 'Full-Stack Web Developer | Internship',
         institution: 'Kantor Camat Bintan Timur',
         dates: 'July 2024 - August 2024',
         description: [

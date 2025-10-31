@@ -54,7 +54,7 @@ const Hero: React.FC = () => {
 
           {/* Foto utama — posisi wajah disesuaikan */}
           <motion.img
-            src="/images/Vinandra.png"
+            src="/images/Adam.png"
             alt="Vinandra Adam Saputra"
             className="relative w-60 h-60 md:w-72 md:h-72 rounded-full object-cover shadow-2xl border-4 border-white/70 object-top translate-y-2"
             whileHover={{ scale: 1.05, rotate: 1 }}
@@ -103,7 +103,7 @@ const Hero: React.FC = () => {
           <motion.a
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.97 }}
-            href="/CV Vinandra Adam.pdf"
+            href="/CV Vinandra Adam S.pdf"
             download
             className="bg-white/60 border-2 border-blue-600 text-blue-700 font-semibold py-3 px-8 rounded-xl shadow-md backdrop-blur-sm hover:bg-white/80 transition-all duration-300"
           >
