@@ -54,7 +54,7 @@ const Hero: React.FC = () => {
 
           {/* Foto utama — posisi wajah disesuaikan */}
           <motion.img
-            src="/images/Adam.png"
+            src="/images/adam2.png"
             alt="Vinandra Adam Saputra"
             className="relative w-60 h-60 md:w-72 md:h-72 rounded-full object-cover shadow-2xl border-4 border-white/70 object-top translate-y-2"
             whileHover={{ scale: 1.05, rotate: 1 }}
