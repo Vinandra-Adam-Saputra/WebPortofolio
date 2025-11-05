@@ -135,7 +135,7 @@ export const PROJECTS: Project[] = [
     longDescription: 'This project is an electronic catalog created for NST Phoneshop. Its purpose is to digitize how customers view available products, complete with images, specifications, and other details. This application serves as a digital storefront that simplifies product searching and browsing.',
     sourceCodeUrl: 'https://github.com/Vinandra-Adam-Saputra/NST-Catalog.git',
   },
-    {
+  {
     id: 7,
     title: 'QuizGen - Smart Quiz Generator',
     techStack: ['React', 'Tailwind CSS', 'Vite', 'Supabase', 'TypeScript', 'Gemini API', 'Pollinations.ai'],
@@ -152,6 +152,24 @@ export const PROJECTS: Project[] = [
     description: 'An AI-powered platform for educators to instantly create custom English topics quizzes.',
     longDescription: 'QuizGen is a modern web application that revolutionizes quiz creation for educators by leveraging Google Gemini AI. Teachers can generate comprehensive quizzes tailored to specific grade levels and topics in seconds, complete with AI-generated illustrations, reading passages, and bilingual explanations (English/Indonesian). The platform supports multiple question types including multiple-choice, fill-in-the-blank, and essay questions, while providing instant auto-grading and detailed performance analytics for students.',
     sourceCodeUrl: 'https://github.com/Vinandra-Adam-Saputra/QuizGen---SmartQuizGenerator.git',
+  },
+  {
+    id: 8,
+    title: 'Learnify',
+    techStack: ['React', 'Tailwind CSS', 'Vite', 'TypeScript', 'Gemini API', 'Mammoth.js'],
+    imageUrl: '/images/learnify-mockup.png',
+    screenshots: [
+      "/images/learnify1.png",
+      "/images/learnify2.png",
+      "/images/learnify3.png",
+      "/images/learnify4.png",
+      "/images/learnify5.png",
+      "/images/learnify6.png",
+      "/images/learnify7.png",
+    ],
+    description: 'A platform that turns any content into interactive lessons, quizzes, and personalized tutoring sessions.',
+    longDescription: 'This project is an intelligent learning assistant built with AI capabilities. Its purpose is to transform passive reading into active learning by automatically generating educational materials from any uploaded content. Users can upload documents (PDF, DOCX, TXT) or paste text, and the application will instantly create comprehensive summaries, structured micro-lessons, adaptive quizzes, and provide an AI tutor for real-time Q&A. Built with React and powered by Google Gemini AI, this application streamlines the learning process by breaking down complex content into digestible lessons, testing knowledge through interactive quizzes, and offering personalized tutoring support. The platform features a modern, responsive interface and supports both English and Indonesian content, making it an ideal tool for students, professionals, and lifelong learners seeking a more effective way to study and retain information.',
+    sourceCodeUrl: 'https://github.com/Vinandra-Adam-Saputra/Learnify.git',
   },
 ];
 
