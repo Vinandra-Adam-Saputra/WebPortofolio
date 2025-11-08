@@ -103,7 +103,7 @@ const Hero: React.FC = () => {
           <motion.a
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.97 }}
-            href="/CV Vinandra Adam S.pdf"
+            href="/CV Vinandra Adam S (Eng) Updated.pdf"
             download
             className="bg-white/60 border-2 border-blue-600 text-blue-700 font-semibold py-3 px-8 rounded-xl shadow-md backdrop-blur-sm hover:bg-white/80 transition-all duration-300"
           >

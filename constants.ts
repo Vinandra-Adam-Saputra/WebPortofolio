@@ -11,6 +11,17 @@ export const NAV_LINKS: NavLink[] = [
 ];
 
 export const EXPERIENCES: Experience[] = [
+
+      {
+        title: 'Full-Stack Web Developer | Freelance',
+        institution: 'NST Phoneshop, Tanjungpinang',
+        dates: 'September 2025 - October 2025',
+        description: [
+            'Designed and developed a responsive web-based e-catalog to digitize the store\'s inventory, enabling seamless product browsing and discovery for customers.',
+            'Built a secure administrative dashboard with robust authentication, empowering the business owner to manage stock levels and update product visuals in real-time.',
+        ],
+        image: "/images/NST (1).jpeg",
+    },
     {
         title: 'Full-Stack Web Developer | Internship',
         institution: 'Kantor Camat Bintan Timur',
